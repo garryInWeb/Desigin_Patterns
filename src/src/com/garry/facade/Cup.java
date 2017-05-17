@@ -8,11 +8,13 @@ public class Cup {
         System.out.println("start CPU");
     }
 }
+
 class Memory{
     void start(){
         System.out.println("start Memory");
     }
 }
+
 class Disk{
     void start(){
         System.out.println("start Disk");

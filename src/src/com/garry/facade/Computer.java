@@ -1,7 +1,5 @@
 package com.garry.facade;
 
-import sun.plugin2.gluegen.runtime.CPU;
-
 /**
  * Created by Administrator on 2017/5/16 0016.
  * JAVABean
