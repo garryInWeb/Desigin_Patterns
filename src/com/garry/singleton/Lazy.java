@@ -12,7 +12,8 @@ package com.garry.singleton;
  */
 public class Lazy {
 
-    private static Lazy lazy = null;
+    // 防止指令重排序
+    private static volatile Lazy lazy = null;
     private Lazy(){}
     public static Lazy getInstance(){
         if(lazy == null){   //避免每次都访问同步锁
